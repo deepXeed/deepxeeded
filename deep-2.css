@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header-footer {
+    background-color: #00695c; /* Dark Bluish Green */
+    color: #ffffff;
+}
+
+.header-footer h2 {
+    margin: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #b2dfdb; /* Light Bluish Green */
+    transform: scale(1.05);
+    font-size: 1em;
+    
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+#home-section {
+    background-color: #e0f2f1; /* Light Bluish Green */
+    color: #333;
+    padding-top: 8em;
+    padding-bottom: 4em;
+}
+
+#home-section .main-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+#home-section .main-img:hover {
+    transform: scale(1.05);
+}
+
+#home-section h4 {
+    color: #004d40; /* Darker Bluish Green */
+}
+
+.bg-light {
+    background-color: #ffffff;
+}
+
+.bg-dark-green {
+    background-color: #004d40; /* Dark Bluish Green */
+    color: #ffffff;
+}
+
+.bg-grey {
+    background-color: #eeeeee; /* Light Grey */
+    color: #333;
+}
+
+.card {
+    border: 1px solid #004d40; /* Dark Bluish Green */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #004d40; /* Dark Bluish Green */
+}
+
+.card-text {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #004d40; /* Dark Bluish Green */
+    border: none;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #00796b; /* Medium Bluish Green */
+}
+
+.footer-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+    color: #b2dfdb; /* Light Bluish Green */
+}
+
+footer p {
+    color: #ffffff;
+}
+
+/* Adjustments for the Education Section */
+#education-section {
+    background-color: #004d40; /* Dark Bluish Green */
+    color: #ffffff;
+}
+
+#education-section .card {
+    background-color: #004d40; /* Dark Bluish Green */
+    color: #ffffff;
+    border: none;
+}
+
+#education-section .card-title {
+    color: #b2dfdb; /* Light Bluish Green */
+}
+
+#education-section .card-text {
+    color: #ffffff;
+}
