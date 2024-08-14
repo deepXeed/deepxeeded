@@ -99,16 +99,20 @@ body {
     color: #555;
 }
 
-.btn-primary {
-    background-color: #004d40; /* Dark Bluish Green */
+.btn-primary1 {
+    background-color: #00695c; /* Bluish-green */
+    color: #fff;
     border: none;
-    color: #ffffff;
-    transition: background-color 0.3s ease;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.btn-primary:hover {
+.btn-primary1:hover {
     background-color: #00796b; /* Medium Bluish Green */
-}
+    transform: scale(1.05)}
 
 .footer-icons a {
     color: #ffffff;
